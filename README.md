@@ -1,13 +1,11 @@
 # SegVPR
 ![Learning Semantics for Visual Place Recognition through Multi-Scale Attention](https://arxiv.org/pdf/2201.09701.pdf) in proceedings @ICIAP2022  
 <table>
-   <th rowspan="2"><img src="images/teaser.png" alt="Teaser"/></th><th>Architecture component</th>
+   <th rowspan="2"><img src="images/teaser.png" alt="Teaser"/></th><th colspan="3">Architecture component</th>
    <tr>
-      <td>
-         <img src="images/architecture.jpg" alt="Architecture" width="577"/>
-         <img src="images/ms_attention_module.jpg" alt="MS-Attention-Module" width="288" height="153"/>
-         <img src="images/ms_pooling_module.jpg" alt="MS-Pooling-Module" width="288" height="153"/>
-      </td>
+      <td><img src="images/architecture.jpg" alt="Architecture" width="577"/></td>
+      <td><img src="images/ms_attention_module.jpg" alt="MS-Attention-Module" width="288"/>
+          <img src="images/ms_pooling_module.jpg" alt="MS-Pooling-Module" width="288"/></td>
    </tr>
 </table>
   
