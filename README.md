@@ -1,8 +1,15 @@
 # SegVPR
 ![Learning Semantics for Visual Place Recognition through Multi-Scale Attention](https://arxiv.org/pdf/2201.09701.pdf) in proceedings @ICIAP2022  
-<img src="images/architecture.jpg" alt="Architecture" width="577"/>
-<img src="images/ms_attention_module.jpg" alt="MS-Attention-Module" width="288"/>
-<img src="images/ms_pooling_module.jpg" alt="MS-Pooling-Module" width="288"/>
+<table>
+   <th rowspan="2"><img src="images/teaser.png" alt="Teaser" width="577" height="780"/></th><th>Architecture component</th>
+   <tr>
+      <td>
+         <img src="images/architecture.jpg" alt="Architecture" width="577"/><br>
+         <img src="images/ms_attention_module.jpg" alt="MS-Attention-Module" width="288" height="153"/>
+         <img src="images/ms_pooling_module.jpg" alt="MS-Pooling-Module" width="288" height="153"/>
+      </td>
+   </tr>
+</table>
   
   
 **Setup:**
@@ -11,7 +18,7 @@
  * `pip install -r `[requirements.txt](./requirements.txt)
   
   
-**Datasets: (refer to [details](./dataset_details.txt))**
+**Datasets: (please refer to [details](./dataset_details.txt))**
  * IDDAv2 dataset is available on demand;
  * Oxford RobotCar available on the official website. We use the Overcast scenario as the gallery, 
    while the queries are divided into four scenarios: Rain, Snow, Sun, and Night, with one image sampled every 5 meters 
