@@ -1,0 +1,15 @@
+IDDAv2 (from Carla simulator): a dataset for Visual Place Recognition with semantic segmentation.
+
+
+Train set -> Town10, 4 views (left, front, right, rear)
+	       |-> Gallery: 13516 images, Clear noon
+	       |-> Queries: 7060 images, Cloudy noon 
+	       |-> Queries: 13300 images, Rain 
+
+Val set   -> Town 3, 4 views (left, front, right, rear)            
+               |-> Gallery: 10224 images, Clear noon
+               |-> Queries: 6160 images, Cloudy noon
+               |-> Queries: 6536 images, Hard rain sunset
+
+
+Path tree:     /datasets/iddav2/images/ [town3, town10] / [gallery, gallery_labels, queries, queries_labels, queries_rain, queries_labels_rain] / [front_rear, left_right] / [front, left, right, rear]
