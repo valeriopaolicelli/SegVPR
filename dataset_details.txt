@@ -1,0 +1,61 @@
+Datasets are organized in folders as follow:
+
+------------------------------ IDDAv2 ------------------------------
+|-> IDDAv2 root folder
+|   | -> images
+|   |       | -> tow10
+|   |       |       | -> gallery
+|   |       |       |       | -> front_rear
+|   |       |       |       |       | -> front
+|   |       |       |       |       | -> rear
+|   |       |       | -> gallery_labels
+|   |       |       |       | -> front_rear
+|   |       |       |       |       | -> front
+|   |       |       |       |       | -> rear
+|   |       |       | -> queries_rain
+|   |       |       |       | -> front_rear
+|   |       |       |       |       | -> front
+|   |       |       |       |       | -> rear
+|   |       |       | -> queries_labels_rain
+|   |       |       |       | -> front_rear
+|   |       |       |       |       | -> front
+|   |       |       |       |       | -> rear
+|   |       | -> town3
+|   |       |       | -> gallery
+|   |       |       |       | -> left_right
+|   |       |       |       |       | -> left
+|   |       |       |       |       | -> right
+|   |       |       | -> gallery_labels
+|   |       |       |       | -> left_right
+|   |       |       |       |       | -> left
+|   |       |       |       |       | -> right
+|   |       |       | -> queries_rain
+|   |       |       |       | -> left_right
+|   |       |       |       |       | -> left
+|   |       |       |       |       | -> right
+|   |       |       | -> queries_labels_rain
+|   |       |       |       | -> left_right
+|   |       |       |       |       | -> left
+|   |       |       |       |       | -> right
+
+Images and segmentation labels share the same filename but the file extension and the suffix 'labels' into the folder name.
+The filename contains useful metadata separated by a '@'. The most important ones are the first two: @UTMx@UTMy@
+
+eg. @277456.815@110790.196@Town3@HardRainSunset@audi@1610823676@1.0017381363109763@1.000165584765127@1.3436510562896729@289611@:
+    - image path:
+        /iddav2/images/town3/queries_rain/left_right/left/@277456.815@110790.196@Town3@HardRainSunset@audi@1610823676@1.0017381363109763@1.000165584765127@1.3436510562896729@289611@.jpg
+    - segm label path:
+        /iddav2/images/town3/queries_labels_rain/left_right/left/@277456.815@110790.196@Town3@HardRainSunset@audi@1610823676@1.0017381363109763@1.000165584765127@1.3436510562896729@289611@.png
+    - VPR label parsing the filename by a '@':
+        UTMx: 277456.815
+        UTMy: 110790.196
+
+------------------------------ OXFORD ROBOTCAR ------------------------------
+|-> Oxford RobotCar
+|       | -> night
+|       | -> overcast
+|       | -> rain
+|       | -> snow
+|       | -> sun
+
+The image filename must be formatted as: @UTMx@UTMy@.jpg
