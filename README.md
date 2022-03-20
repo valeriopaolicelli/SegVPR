@@ -1,8 +1,8 @@
 # SegVPR
 ![Learning Semantics for Visual Place Recognition through Multi-Scale Attention](https://arxiv.org/pdf/2201.09701.pdf) in proceedings @ICIAP2022  
 <img src="images/architecture.jpg" alt="Architecture" width="577"/>
-<img src="images/ms_attention_module.jpg" alt="MS-Attention-Module" width="460"/>
-<img src="images/ms_pooling_module.jpg" alt="MS-Pooling-Module" width="460"/>
+<img src="images/ms_attention_module.jpg" alt="MS-Attention-Module" width="288"/>
+<img src="images/ms_pooling_module.jpg" alt="MS-Pooling-Module" width="288"/>
   
   
 **Setup:**
