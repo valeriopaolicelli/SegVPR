@@ -40,10 +40,10 @@
   
   
 **Pretrained models:**
-[ResNet50 + DeepLab](weigths/ours_r50_dl.pth)
-[ResNet50 + PSPNet](weigths/ours_r50_psp.pth)
-[ResNet101 + DeepLab](weigths/ours_r101_dl.pth)
-[ResNet101 + PSPNet](weigths/ours_r101_psp.pth)
+ * [ResNet50 + DeepLab](weigths/ours_r50_dl.pth)
+ * [ResNet50 + PSPNet](weigths/ours_r50_psp.pth)
+ * [ResNet101 + DeepLab](weigths/ours_r101_dl.pth)
+ * [ResNet101 + PSPNet](weigths/ours_r101_psp.pth)
 *Please note:* main paper shows the average recalls running all the experiments three times with different seed. 
 Here we provide only one run per configuration.
   
