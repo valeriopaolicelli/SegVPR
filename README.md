@@ -24,17 +24,19 @@
   
   
 **Usage:**
- * Train: Using the default parameters the script runs the final architecture configuration with 
+ * *Train:* Using default parameters, the script uses the final architecture configuration with 
    ResNet50 encoder, DeepLab semantic segmentation module, multi-scale pooling layer from 4th and 5th conv blocks and 
    finally the domain adaptation module. 
-   It follows the exact training protocol and implementation details described into the main paper and the supplementary 
+   It follows the exact training protocol and implementation details described into the main paper and supplementary 
    material. It trains all layers of the encoder and uses the multi-scale attention computed with the features
    extracted from the 4th conv block.  
    `python3 main.py --exp_name=<name output log folder> --dataset_root=<root path of IDDAv2 train dataset> 
    --dataset_root_val=<root path of IDDAv2 val dataset> --dataset_root_test=<root path of RobotCar dataset> 
    --DA_datasets=<path to the RobotCar folder where all scenarios are merged>`  
-   To resume the training specify `--resume=<path of checkpoint .pth>`
- * Evaluate:   
+   To resume the training specify `--resume=<path of checkpoint .pth>`  
+   To change the encoder specify `--arch=resnet101`  
+   To change the semantic segmentation module specify `--semnet=pspnet` 
+ * *Evaluate:*   
    `python3 eval.py --resume=<path of checkpoint .pth> --dataset_root_val=<root path of IDDAv2 val dataset> 
    --dataset_root_test=<root path of RobotCar dataset>`
   
@@ -44,8 +46,8 @@
  * [ResNet50 + PSPNet](https://drive.google.com/file/d/1g33N0gVNGAKWgx0gHbDcAybVxMUkUtdt/view?usp=sharing)
  * [ResNet101 + DeepLab](https://drive.google.com/file/d/1R6m4FpOrf4oOwVO-TnSGZjtE5tR5LCJd/view?usp=sharing)
  * [ResNet101 + PSPNet](https://drive.google.com/file/d/1uQqr7oDeg5T8JQNxtHtEnkleA2orf2cx/view?usp=sharing)  
-*Please note:* main paper shows the average recalls running all the experiments three times with different seed. 
-Here we provide only one run per configuration.
+*Please note:* the main paper shows average recalls obtained from all configurations run three times with different seeds respectively. 
+Here instead we provide only one model per configuration.
   
   
 **Citation:**
