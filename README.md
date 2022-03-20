@@ -1,20 +1,23 @@
 # SegVPR
-![Learning Semantics for Visual Place Recognition through Multi-Scale Attention](https://arxiv.org/pdf/2201.09701.pdf) accepted @ICIAP2022  
-![Architecture](images/architecture.jpg?raw=true)  
-![MS-Attention-Module](images/ms_attention_module.jpg?raw=true) ![MS-Pooling-Module](images/ms_pooling_module.jpg?raw=true)  
+![Learning Semantics for Visual Place Recognition through Multi-Scale Attention](https://arxiv.org/pdf/2201.09701.pdf) in proceedings @ICIAP2022  
+<img src="images/architecture.jpg" alt="Architecture" width="100"/>
+<img src="images/ms_attention_module.jpg" alt="MS-Attention-Module" width="100"/>
+<img src="images/ms_pooling_module.jpg" alt="MS-Pooling-Module" width="100"/>
+![Architecture](images/architecture.jpg)  
+![MS-Attention-Module](images/ms_attention_module.jpg) ![MS-Pooling-Module](images/ms_pooling_module.jpg)  
   
   
 **Setup:**
  * Install Python3.6+
  * Install pip3
- * `pip install -r [requirements.txt](./requirements.txt)`
+ * `pip install -r `[requirements.txt](./requirements.txt)
   
   
 **Datasets: (refer to [details](./dataset_details.txt))**
  * IDDAv2 dataset is available on demand;
  * Oxford RobotCar available on the official website. We use the Overcast scenario as the gallery, 
    while the queries are divided into four scenarios: Rain, Snow, Sun, and Night, with one image sampled every 5 meters 
-   and filename formatted as @UTMx@UTMy@.jpg . 
+   and filename formatted as @UTMx@UTMy@\.jpg . 
   
   
 **Usage:**
