@@ -29,6 +29,26 @@
   
 **Datasets: (please refer to [details](./dataset_details.txt))**
  * IDDAv2 dataset will be soon available at [Official IDDA Web Site](https://idda-dataset.github.io/home/) ;
+ <table>
+  <thead>
+    <tr>
+      <th colspan="2">Town 3</th>
+      <th colspan="2">Town 10</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="images/g_image_277349.751_110471.756_Town3_.png" alt="Town3_image"/></td>
+      <td><img src="images/g_mask_277349.751_110471.756_Town3_.png" alt="Town3_mask"/></td>
+      <td><img src="images/g_image_277414.576_110665.787_Town10_.png" alt="Town10_image"/></td>
+      <td><img src="images/g_mask_277414.576_110665.787_Town10_.png" alt="Town10_mask"/></td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center; vertical-align: middle;">UTMx 277349.751<br>UTMy 110471.756<br></td>
+      <td colspan="2" style="text-align: center; vertical-align: middle;">UTMx 277414.576<br>UTMy 110665.787<br></td>
+    </tr>
+  </tbody>
+  </table>
  * Oxford RobotCar available on the official website. We use the Overcast scenario as the gallery, 
    while the queries are divided into four scenarios: Rain, Snow, Sun, and Night, with one image sampled every 5 meters 
    and filename formatted as `@UTMx@UTMy@.jpg`. 
