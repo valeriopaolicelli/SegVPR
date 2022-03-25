@@ -28,7 +28,7 @@
   
   
 **Datasets: (please refer to [details](./dataset_details.txt))**
- * IDDAv2 dataset is available on demand;
+ * IDDAv2 dataset will be soon available at [Official IDDA Web Site)(https://idda-dataset.github.io/home/) ;
  * Oxford RobotCar available on the official website. We use the Overcast scenario as the gallery, 
    while the queries are divided into four scenarios: Rain, Snow, Sun, and Night, with one image sampled every 5 meters 
    and filename formatted as `@UTMx@UTMy@.jpg`. 
