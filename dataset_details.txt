@@ -3,7 +3,7 @@ Datasets are organized in folders as follow:
 ------------------------------ IDDAv2 ------------------------------
 |-> IDDAv2 root folder
 |   | -> images
-|   |       | -> tow10
+|   |       | -> town10
 |   |       |       | -> gallery
 |   |       |       |       | -> front_rear
 |   |       |       |       |       | -> front
