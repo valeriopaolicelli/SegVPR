@@ -1,5 +1,14 @@
 # SegVPR
-![Learning Semantics for Visual Place Recognition through Multi-Scale Attention](https://arxiv.org/pdf/2201.09701.pdf) in proceedings @ICIAP2022  
+This is the official PyTorch implementation of our work: "Learning Semantics for Visual Place Recognition through Multi-Scale Attention" accepted at ICIAP 2021.
+
+In this paper we address the task of visual place recognition (VPR), where the goal is to retrieve the correct GPS coordinates of a given query image against a huge geotagged gallery. While recent works have shown that building descriptors incorporating semantic and appearance information is beneficial, current state-of-the-art methods opt for a top down definition of the significant semantic content. Here we present the first VPR algorithm that learns robust global embeddings from both visual appearance and semantic content of the data, with the segmentation process being dynamically guided by the recognition of places through a multi-scale attention module. Experiments on various scenarios validate this new approach and demonstrate its performance against state-of-the-art methods. Finally, we propose the first synthetic-world dataset suited for both place recognition and segmentation tasks.
+
+<!--- [[Paper]](https://openaccess.thecvf.com/content/WACV2022/papers/Tavera_Pixel-by-Pixel_Cross-Domain_Alignment_for_Few-Shot_Semantic_Segmentation_WACV_2022_paper.pdf)
+\[[Supplementary]](https://openaccess.thecvf.com/content/WACV2022/supplemental/Tavera_Pixel-by-Pixel_Cross-Domain_Alignment_WACV_2022_supplemental.pdf) --->
+
+[[ArXiV]](https://arxiv.org/abs/2201.09701)
+
+
 <table>
 <thead>
   <tr>
