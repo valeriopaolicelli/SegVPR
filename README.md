@@ -37,7 +37,7 @@ Read the paper here: [[ArXiV]](https://arxiv.org/abs/2201.09701)
   
   
 **Datasets: (please refer to [details](./dataset_details.txt))**
- * IDDAv2 dataset will be soon available at [Official IDDA Web Site](https://idda-dataset.github.io/home/) ;
+ * IDDAv2 dataset NOW available at [Official IDDA Web Site](https://idda-dataset.github.io/home/) ;
  <table>
   <thead>
     <tr>
