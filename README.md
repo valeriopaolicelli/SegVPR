@@ -80,10 +80,13 @@
 *Please note:* the main paper shows average recalls obtained from all configurations run three times with different seeds respectively. 
 Here instead we provide only one model per configuration.
   
-  
-**Citation:**
-BibTex: 
-@article{Paolicelli_2022_ICIAP,   
-author = {Paolicelli, Valerio and Tavera, Antonio and Masone, Carlo and Berton, Gabriele Moreno and Caputo, Barbara},   
-title = {Learning Semantics for Visual Place Recognition through Multi-Scale Attention},  
-booktitle = {}, month = {March}, year = {2022}, pages = {} }
+## Cite us
+If you use this repository, please consider to cite us:
+
+    @InProceedings{Paolicelli_2022_ICIAP,
+    author    = {Paolicelli, Valerio and Tavera, Antonio and Masone, Carlo and Berton, Gabriele Moreno and Caputo, Barbara}},
+    title     = {Learning Semantics for Visual Place Recognition through Multi-Scale Attention},
+    booktitle = {Image Analysis and Processing – ICIAP 2022},
+    month     = {},
+    year      = {},
+    pages     = {}
