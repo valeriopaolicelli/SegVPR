@@ -6,7 +6,7 @@ In this paper we address the task of visual place recognition (VPR), where the g
 <!--- [[Paper]](https://openaccess.thecvf.com/content/WACV2022/papers/Tavera_Pixel-by-Pixel_Cross-Domain_Alignment_for_Few-Shot_Semantic_Segmentation_WACV_2022_paper.pdf)
 \[[Supplementary]](https://openaccess.thecvf.com/content/WACV2022/supplemental/Tavera_Pixel-by-Pixel_Cross-Domain_Alignment_WACV_2022_supplemental.pdf) --->
 
-[[ArXiV]](https://arxiv.org/abs/2201.09701)
+Read the paper here: [[ArXiV]](https://arxiv.org/abs/2201.09701)
 
 
 <table>
